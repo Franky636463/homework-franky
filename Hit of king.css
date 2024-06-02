@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Shippori+Mincho+B1&display=swap');
+
+ body{
+    font-family: "Shippori Antique", sans-serif;
+    font-size: 18px;
+    color: black;
+ } 
+ .innerWrap{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 60px 20px 0;
+ }
+ .ffosefin{
+    font-family: "Shippori Antique", sans-serif;
+ }
+ main h2{
+   text-align: center;
+   font-size: 60px;
+   letter-spacing: 0.5em;
+   margin-bottom: 80px;
+   color: rgb(229, 181, 4);
+ }
+.a{
+    text-align: center;
+    color: rgb(20, 120, 219);
+}
+ .b{
+    text-align: center;
+    list-style: none;
+ }
+.c{
+    text-align: center;
+    color: #e76b0d;
+}
+header{
+    background: url(test/大王新人.jpeg)no-repeat right center/cover;
+ }
+ header h1{
+    padding-top: 120px;
+ }
+ header nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+ }
+ header nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    list-style: none;
+ }
+ header nav ul a{
+    text-decoration: none;
+    color: rgb(230, 15, 15);
+ }
+ header nav ul a:hover{
+    color: crimson;
+ }
+/*main*/
+
+ .msgSec{
+   background-color: rgb(247, 242, 155);
+ }
+ .msgSec p{
+   text-align:left;
+   line-height: 1.5;/*段落和段落之間的距離*/
+   margin-bottom:30 px;
+ }
+ .illustone{
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 20px 0;
+   position:relative;
+ }
+ /*Date*/
+  .dataSec{
+    background-color: rgb(162, 217, 243);
+  }
+  .dataSec p{
+    text-align:left;
+    line-height: 1.5;/*段落和段落之間的距離*/
+    margin-bottom:30 px;
+  }
+  .illusttwo{
+     width: 400px;
+     text-align: center;
+     margin: 0 auto;
+     padding: 50px 20px 0;
+    position:relative;
+  }
+  .entrytable td/*若沒td就只會框外面而已*/{
+    width: 50vw;
+    margin: auto;
+    border: 2px solid rgb(194, 155, 26);
+    background-color: rgb(252, 157, 93);
+
+}
+/*form*/
+  .formSec{
+    background-color: rgb(172, 234, 169);
+  }
+  .formSec p{
+    text-align:left;
+    line-height: 1.5;/*段落和段落之間的距離*/
+    margin-bottom:30 px;
+  }
+  .illustthree{
+     width: 350px;
+     text-align: center;
+     margin: 0 auto;
+     padding: 50px 20px 0;
+    position:relative;
+  }
+  .entrytable td/*若沒td就只會框外面而已*/{
+    width: 50vw;
+    margin: auto;
+    border: 2px solid rgb(194, 155, 26);
+    background-color: rgb(252, 157, 93);
+
+}
